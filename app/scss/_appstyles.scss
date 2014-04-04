@@ -1,2 +1,32 @@
 /* all app scss styles here */
 
+.dark-row {
+  background-color: rgba(0, 0, 0, .02);
+  border: solid thin rgba(0, 0, 0, .06);
+  border-right: none;
+  border-left: none;
+
+  .panel {
+    margin-bottom: 0;
+    &:hover {
+      cursor: pointer;
+    }
+    @media #{$small}{
+      margin-bottom: 1.25rem;
+    }
+
+  }
+}
+
+a.mobile-link {
+  font-size: 2rem;
+  color: #ccc;
+  position: absolute;
+  top: 34%;
+  right: 2rem;
+
+  &:hover {
+    color:#333;
+  }
+}
+
