@@ -4829,13 +4829,13 @@ meta.foundation-mq-topbar {
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-weight: normal;
     text-transform: none;
     background: #333; }
     .top-bar-section ul li > a.button {
       background: #3b69ba;
-      font-size: 0.8125rem;
+      font-size: 1rem;
       padding-right: 15px;
       padding-left: 15px; }
       .top-bar-section ul li > a.button:hover {
@@ -6124,3 +6124,8 @@ a.mobile-link {
   right: 2rem; }
   a.mobile-link:hover {
     color: #333; }
+
+footer {
+  background-color: #EEE; }
+  footer ul li a {
+    font-size: 2.1rem; }
